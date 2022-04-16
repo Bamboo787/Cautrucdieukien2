@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>CHI SO BMI (Weight - Height)</h2>
+    <script>
+        let a = prompt('Nhap can nang');
+        let b = prompt('Nhap chieu cao');
+        let bmi = a / (b * 2);
+        if (bmi < 18.5) {
+            alert('Underweight');
+        }else if (18.5<= bmi <25) {
+            alert('Normal');
+        }else if (25<= bmi <30) {
+            alert('Overweight');
+        }else {
+            alert('Obese');
+        }
+    </script>
+</body>
+
+</html>
