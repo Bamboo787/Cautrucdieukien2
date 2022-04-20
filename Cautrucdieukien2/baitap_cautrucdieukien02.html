@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- bai 1 -->
+    <!-- <script>
+        let a = Number(prompt('Nhap do C: '));
+        let F = (a * 9/5) + 32;
+        alert(F);
+    </script> -->
+
+    <!-- bai 2 -->
+    <!-- <script>
+        let a = Number(prompt('Nhap so met: '));
+        let feet = a * 3.2808;
+        alert(`'So feet la:' ${feet}`);
+    </script> -->
+
+    <!-- bai 3 -->
+    <!-- <script>
+        let a = Number(prompt('Nhap canh a cua hinh vuong: '));
+        let S = a * a;
+        alert(`Dien tich hinh vuong la: ${S}`) -->
+
+    <!-- bai 4 -->
+    <!-- <script>
+            let a = Number(prompt('Nhap canh a: '));
+            let b = Number(prompt('Nhap canh b: '));
+            let S = a * b;
+            alert(`Dien tich hinh chu nhat la: ${S}`);
+        </script> -->
+
+    <!-- bai 5 -->
+    <!-- <script>
+            let a = Number(prompt('Nhap canh a: '));
+            let b = Number(prompt('Nhap canh b: '));
+            let S = 1/2 * a * b;
+            alert(`Dien tich tam giac vuong la: ${S}`)
+        </script> -->
+
+    <!-- bai 6 -->
+    <!-- <script>
+        let a = Number(prompt('Nhap so a: '));
+        let b = Number(prompt('Nhap so b: '));
+        if (a == 0)
+            if (b == 0) {
+                alert('pt vo so nghiem');
+            }
+            else {
+                alert('pt vo nghiem');
+            }
+        else {
+            let x = -b / a;
+            alert(`Gia tri cua x: ${x}`);
+        }
+    </script> -->
+
+    <!-- bai 7 -->
+    <!-- <script>
+        let a = Number(prompt('Nhap gia tri cua a: '));
+        let b = Number(prompt('Nhap gia tri cua b: '));
+        let c = Number(prompt('Nhap gia tri cua c: '));
+        if (a == 0)
+            if (b == 0)
+                if (c == 0) {
+                    alert('pt co vo so nghiem');
+                }
+                else {
+                    alert('pt vo nghiem');
+                }
+            else {
+                let x = -c / b;
+                alert(`pt co nghiem x = ${x}`)
+            }
+        else {
+            delta = b * b - 4 * a * c;
+            if (delta < 0) {
+                alert('pt vo nghiem');
+            }
+            else if (delta == 0) {
+                let x1 = -b / 2 * a;
+                let x2 = -b / 2 * a;
+                alert(`pt co nghiem kep: x1:${x1} = x2:${x2}`);
+            }
+            else {
+                let x1 = (-b + Math.sqrt(delta)) / (2 * a);
+                let x2 = (-b - Math.sqrt(delta)) / (2 * a);
+                alert(`pt co 2 nghiem: x1 = ${x1} va x2 = ${x2}`);
+            }
+        } -->
+
+    <!-- bai8 -->
+    <!-- <script>
+        let a = prompt('Nhap vao so tuoi: ');
+        if (0 < a < 120) {
+            alert(`tuoi cua nguoi do la: ${a}`)
+        }
+        else {
+            alert('so tuoi nhap vao khong hop le')
+        }
+    </script> -->
+
+    <!-- bai9 -->
+    <!-- <script>
+    let a = Number(prompt('Nhap canh a: '));
+    let b = Number(prompt('Nhap canh b: '));
+    let c = Number(prompt('Nhap canh c: '));
+if (a > 0 && b > 0 && c > 0)
+    if (a + b > c && b + c > a && a + c > b) {
+        alert('a, b, c la 3 canh cua tam giac')
+    }else {
+        alert('a, b, c khong phai la 3 canh cua tam giac')
+    }
+else {
+    alert('a, b, c khong phai la 3 canh cua tam giac')
+}
+</script> -->
+
+
+    <!-- bai10 -->
+    <script>
+        let a = Number(prompt("Nhap so dien tieu thu cua thang: "));
+        if (0 < a <= 50) {
+            giadien = a * 1674;
+            alert(`tien dien thang nay la: ${giadien} VND`)
+        }
+        else if (50 < a <= 100) {
+            giadien = a * 1734;
+            alert(`tien dien thang nay la: ${giadien} VND`)  
+        }
+        else if (101 < a <=200) {
+            giadien = a * 2014;
+            alert(`tien dien thang nay la: ${giadien} VND`)
+        }
+        else if (201 < a <= 300) {
+            giadien = a * 2536;
+            alert(`tien dien thang nay la: ${giadien} VND`)
+        }
+        else if (301 < a <=400) {
+            giadien = a * 2834;
+            alert(`tien dien thang nay la: ${giadien} VND`)
+        }
+        else if (a > 400) {
+            giadien = a * 2927;
+            alert(`tien dien thang nay la: ${giadien} VND`)
+        }
+    </script>
+</body>
+
+</html>
